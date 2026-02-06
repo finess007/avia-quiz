@@ -57,6 +57,15 @@ body::before {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ===== BACK LINK ===== */
+.back-link {
+  position: fixed; top: 12px; left: 12px;
+  color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.8rem;
+  background: rgba(0,0,0,0.3); padding: 6px 10px; border-radius: 8px;
+  backdrop-filter: blur(8px); z-index: 100;
+}
+.back-link:hover { color: #fff; background: rgba(0,0,0,0.5); }
+
 /* ===== HOME SCREEN ===== */
 .home-header {
   text-align: center;
@@ -447,6 +456,8 @@ body::before {
     </div>
   </div>
 </div>
+
+<a href="https://knowledge-quest-tan.vercel.app" class="back-link">← Dashboard</a>
 
 <!-- ===== HOME SCREEN ===== -->
 <div class="screen active" id="homeScreen">
