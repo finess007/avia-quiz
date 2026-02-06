@@ -1,0 +1,9 @@
+{
+  "name": "avia-quiz",
+  "version": "1.0.0",
+  "description": "Аз вече знам! — Educational quiz for Avia",
+  "scripts": {
+    "build": "bash build.sh"
+  },
+  "private": true
+}
